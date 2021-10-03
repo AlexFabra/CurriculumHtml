@@ -3,12 +3,17 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" charset=utf-8>
     <style>
+    html{ background-color:#E1E7E6
+    }
 * {
   box-sizing: border-box;
 }
 .topDiv{
-    background-color:#084c41;
+    background-color:#327369;
     overflow:auto;
+}
+.topDerecha{
+    float:left;
 }
 .perfil{
     float:left;
@@ -23,12 +28,18 @@
 	text-align:right;
 	margin-right:10px;
 }
+.name{
+font-size:200%;
+padding-top:2%
+}
 .title{
-    position:flex;
-    text-align:left;
+    /*position:flex;
+    text-align:center;
     float:center;
     margin:10px;
     font-size:4.5vh;
+    font-size:4.5vh;
+    color:white;*/
 }
 .menu {
   float: left;
@@ -68,6 +79,12 @@
 }
 li {padding-bottom: 15px;}
 
+.experience{font: small-caption; font-size:110%}
+
+.titulos{
+color: #fff;
+background-color: #327369;
+}
 
 @media only screen and (max-width: 620px) {
   /* For mobile phones: */
@@ -83,8 +100,8 @@ li {padding-bottom: 15px;}
     <div class="topDerecha">
         <img class="perfil" alt="no se carga el perfil"  src="res/perfilcurriculum.png" />&nbsp;
     </div>
-    <div class="title">
-        Alejandro Fabra Segarra <br><br>
+    <div class="name">
+        <br>Alejandro Fabra Segarra <br>
         Desenvolupador d'aplicacions multiplataforma
     </div>
 </div>
@@ -100,59 +117,59 @@ li {padding-bottom: 15px;}
         <a href="https://github.com/AlexFabra/Sudoku"><img alt="nivelPython" src="res/pythonProgress.png" style="width:100%"/>Projecte en Python</a>
         <a href="https://github.com/AlexFabra/PizzaMaula"><img alt="nivelSQL" src="res/sqlProgress.png" style="width:100%"/>Projecte en Java amb conexió a base de dades Sql</a>
         <a href="https://github.com/AlexFabra"><img class="gitHub" alt="no se carga el img/github" src="res/github.png"/>GitHub: Alex Fabra</a>
-
+        <h3 class="titulos">Formació</h3>
+        <h5 style="color:black">
+            <ul style="color: #fff;background-color: #12423A; padding: 2em">
+                <br>
+                <li>Programació d'aplicacions multiplataforma<br>Ins Pla de l'Estany. Banyoles, Girona<br>Agost, 2020/ maig, 2022</li>
+                <li>Grau en Història de la Filosofia<br>Universitat de Girona<br>Setembre, 2015/ juny, 2020</li>
+                <li>Batxillerat d'arts plàstiques<br>Ins Brugulat. Banyoles, Girona<br>Setembre, 2013/ juny, 2015</li>
+            </ul>
+        </h5>
     </div>
 
     <div class="main">
-        <h3>Perfil</h3>
+        <h3 class="titulos">&nbsp;&nbsp;Perfil</h3>
         <h4>Estic estudiant el cicle superior de desenvolupament d'aplicacions multiplataforma perquè vull progresar
             en el domini de la programació i superar els seus reptes. He treballat tant en fàbrica com de cara al públic,
             i ara busco un treball on pugui donar el millor de mi i millorar en la meva vocació. </h4>
-        <h3>Experiència laboral</h3>
+        <h3 class="titulos"> &nbsp;&nbsp;Experiència laboral</h3>
         <h5>
             <ul>
                 <li>Depenent i ajudant de flequer i programador a la fleca/pizzeria Can Maula<br>
                     Melianta/Girona<br>
                     Agost 2020/ agost 2021<br>
-                    A més de tractar amb els clients i fer les feines típiques d'una fleca/cafeteria,
-                    vaig fer un programa per agilitzar les comandes de la pizzeria.
+                    <p class="experience">A més de tractar amb els clients i fer les feines típiques d'una fleca/cafeteria,
+                        vaig fer un programa per agilitzar les comandes de la pizzeria.</p>
                 </li>
                 <li>Depenent a Decathlon<br>
                     Girona<br>
                     Juny 2019/ novembre 2019<br>
-                    Atenció al client especialitzada i responsabilitat per organitzar i mantenir el disseny de la zona especialitzada;
-                    treball en equips petits amb divisió de tasques i companyonia; gestió del temps per assolir els múltiples objectius diaris.
+                    <p class="experience">Atenció al client especialitzada i responsabilitat per organitzar i mantenir el disseny de la zona especialitzada;
+                    treball en equips petits amb divisió de tasques i companyonia; gestió del temps per assolir els múltiples objectius diaris.</p>
 
                 </li>
                 <li>Cambrer a La Parra Restaurant<br>
                     Banyoles/Girona<br>
                     Estius de 2018 a 2019<br>
-                    Servei a taula i a barra, cobrament; encarregat de la disposició i neteja de les taules i el local; responsable de la comptabilitat.
+                    <p class="experience">Servei a taula i a barra, cobrament; encarregat de la disposició i neteja de les taules i el local; responsable de la comptabilitat.</p>
                 </li>
                 <li>Dependent i gestor de web a la llibreriaUlyssus<br>
                     Girona<br>
                     D'octubre a desembre a 2018<br>
-                    Disseny i maquetació web i atenció al client.
+                    <p class="experience">Disseny i maquetació web i atenció al client.</p>
                 </li>
                 <li>Representant de la Facultat de Lletres de la Universitat de Girona a la ExpoJove 2019<br>
                     Girona<br>
-                    Exposició als interessats de la oferta de la Facultat de Lletres de la UdG.
+                    <p class="experience">Exposició als interessats de la oferta de la Facultat de Lletres de la UdG.</p>
                 </li>
                 <li>Operari a Haribo<br>
                     Cornellà del Terri/Girona<br>
                     Estius de 2015 a 2017<br>
-                    Ajudant de producció de caramel: vaig passar de encarregat de detectar irregularitats
+                    <p class="experience">Ajudant de producció de caramel: vaig passar de encarregat de detectar irregularitats
                     en el producte i de mantenir el lloc de feina net a transportista encarregat de la identificació i el pesat de palets,
-                    també a ajudant de la preparació de la masa dels carmels i a ajudant de preparació de les solucions de colors i aromes dels dolços.
+                    també a ajudant de la preparació de la masa dels carmels i a ajudant de preparació de les solucions de colors i aromes dels dolços.</p>
                 </li>
-            </ul>
-        </h5>
-        <h3>Formació</h3>
-        <h5>
-            <ul>
-                <li>Programació d'aplicacions multiplataforma<br>Ins Pla de l'Estany. Banyoles, Girona<br>Agost, 2020/ maig, 2022</li>
-                <li>Grau en Història de la Filosofia<br>Universitat de Girona<br>Setembre, 2015/ juny, 2020</li>
-                <li>Batxillerat d'arts plàstiques<br>Ins Brugulat. Banyoles, Girona<br>Setembre, 2013/ juny, 2015</li>
             </ul>
         </h5>
     </div>
